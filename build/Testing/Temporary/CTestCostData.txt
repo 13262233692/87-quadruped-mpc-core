@@ -1,0 +1,16 @@
+SRBDModelTest.SkewSymmetricMatrix 1 0.0106501
+SRBDModelTest.StateConstruction 1 0.0274048
+SRBDModelTest.GravityFallsCorrectly 1 0.0188499
+SRBDModelTest.BalancedForcesEquilibrium 1 0.0095014
+SRBDModelTest.AMatrixDimensions 1 0.0106661
+SRBDModelTest.BMatrixDimensions 1 0.0101599
+SRBDModelTest.BMatrixZeroForNoContact 1 0.0097082
+SRBDModelTest.RK4IntegrationConservesQuaternionNorm 1 0.0203086
+SRBDModelTest.DiscreteAMatrixIdentityForZeroDt 1 0.0421069
+SRBDModelTest.DiscreteBMatrixSmallForZeroDt 1 0.0115886
+SRBDModelTest.RotationMatrixIdentityForDefaultOrientation 1 0.0092216
+SRBDModelTest.InvalidMassThrows 1 0.010441
+SRBDModelTest.AsymmetricInertiaThrows 1 0.0096969
+SRBDModelTest.QuaternionJacobianCorrectSize 1 0.0380884
+SRBDModelTest.RK4FreeFallMatchesAnalytical 1 0.0228896
+---

@@ -1,0 +1,10 @@
+^D:\SOLO-10\87-QUADRUPED-MPC-CORE\BUILD\CMAKEFILES\68EDBD62A0606A5F3565B166E2AE25A6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/SOLO-10/87-quadruped-mpc-core -BD:/SOLO-10/87-quadruped-mpc-core/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/SOLO-10/87-quadruped-mpc-core/build/quadruped_srbd.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,5 @@
+if(EXISTS "D:/SOLO-10/87-quadruped-mpc-core/build/tests/srbd_tests[1]_tests.cmake")
+  include("D:/SOLO-10/87-quadruped-mpc-core/build/tests/srbd_tests[1]_tests.cmake")
+else()
+  add_test(srbd_tests_NOT_BUILT srbd_tests_NOT_BUILT)
+endif()

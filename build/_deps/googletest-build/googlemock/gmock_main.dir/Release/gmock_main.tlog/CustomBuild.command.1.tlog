@@ -1,0 +1,10 @@
+^D:\SOLO-10\87-QUADRUPED-MPC-CORE\BUILD\_DEPS\GOOGLETEST-SRC\GOOGLEMOCK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/SOLO-10/87-quadruped-mpc-core -BD:/SOLO-10/87-quadruped-mpc-core/build --check-stamp-file D:/SOLO-10/87-quadruped-mpc-core/build/_deps/googletest-build/googlemock/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

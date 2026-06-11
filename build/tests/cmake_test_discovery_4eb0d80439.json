@@ -1,0 +1,87 @@
+{
+  "tests": 15,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "SRBDModelTest",
+      "tests": 15,
+      "testsuite": [
+        {
+          "name": "SkewSymmetricMatrix",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 48
+        },
+        {
+          "name": "StateConstruction",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 65
+        },
+        {
+          "name": "GravityFallsCorrectly",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 88
+        },
+        {
+          "name": "BalancedForcesEquilibrium",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 102
+        },
+        {
+          "name": "AMatrixDimensions",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 112
+        },
+        {
+          "name": "BMatrixDimensions",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 121
+        },
+        {
+          "name": "BMatrixZeroForNoContact",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 130
+        },
+        {
+          "name": "RK4IntegrationConservesQuaternionNorm",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 141
+        },
+        {
+          "name": "DiscreteAMatrixIdentityForZeroDt",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 155
+        },
+        {
+          "name": "DiscreteBMatrixSmallForZeroDt",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 166
+        },
+        {
+          "name": "RotationMatrixIdentityForDefaultOrientation",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 175
+        },
+        {
+          "name": "InvalidMassThrows",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 180
+        },
+        {
+          "name": "AsymmetricInertiaThrows",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 185
+        },
+        {
+          "name": "QuaternionJacobianCorrectSize",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 193
+        },
+        {
+          "name": "RK4FreeFallMatchesAnalytical",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 200
+        }
+      ]
+    }
+  ]
+}
