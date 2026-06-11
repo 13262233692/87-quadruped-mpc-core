@@ -15,6 +15,30 @@ PYBIND11_MODULE(quadruped_srbd, m) {
     m.attr("NUM_LEGS") = NUM_LEGS;
     m.attr("SPACE_DIM") = SPACE_DIM;
 
+    py::enum_<DiscretizationMethod>(m, "DiscretizationMethod")
+        .value("FORWARD_EULER", DiscretizationMethod::FORWARD_EULER)
+        .value("MATRIX_EXPONENTIAL", DiscretizationMethod::MATRIX_EXPONENTIAL)
+        .value("TUSTIN", DiscretizationMethod::TUSTIN)
+        .value("ZOH", DiscretizationMethod::ZOH);
+
+    py::class_<DiscretizationResult>(m, "DiscretizationResult")
+        .def_readwrite("A_d", &DiscretizationResult::A_d)
+        .def_readwrite("B_d", &DiscretizationResult::B_d)
+        .def_readwrite("matrix_exp_series_terms", 
+                       &DiscretizationResult::matrix_exp_series_terms)
+        .def_readwrite("spectral_radius", 
+                       &DiscretizationResult::spectral_radius)
+        .def_readwrite("is_stable", &DiscretizationResult::is_stable)
+        .def("__repr__", [](const DiscretizationResult& r) {
+            std::ostringstream oss;
+            oss << "DiscretizationResult("
+                << "spectral_radius=" << r.spectral_radius
+                << ", is_stable=" << (r.is_stable ? "True" : "False")
+                << ", terms=" << r.matrix_exp_series_terms
+                << ")";
+            return oss.str();
+        });
+
     py::class_<SRBDModel>(m, "SRBDModel")
         .def(py::init<>())
         .def("set_mass", &SRBDModel::setMass,
@@ -68,7 +92,30 @@ PYBIND11_MODULE(quadruped_srbd, m) {
              py::arg("contact"), py::arg("dt"))
         .def("discrete_B_matrix", &SRBDModel::discreteBMatrix,
              py::arg("state"), py::arg("foot_positions"), 
-             py::arg("contact"), py::arg("dt"));
+             py::arg("contact"), py::arg("dt"))
+        .def("discretize", [](const SRBDModel& self,
+             const StateVector& state,
+             const FootPosArray& foot_positions,
+             const ContactArray& contact,
+             double dt,
+             DiscretizationMethod method) {
+            return self.discretize(state, foot_positions, contact, dt, method);
+        }, py::arg("state"), py::arg("foot_positions"),
+           py::arg("contact"), py::arg("dt"),
+           py::arg("method") = DiscretizationMethod::MATRIX_EXPONENTIAL)
+        .def("matrix_exponential", [](const SRBDModel& self, 
+             const StateMatrix& A) {
+            int terms = 0;
+            StateMatrix exp_A = self.matrixExponential(A, terms);
+            return std::make_pair(exp_A, terms);
+        }, py::arg("A"))
+        .def("spectral_radius", &SRBDModel::spectralRadius,
+             py::arg("A"))
+        .def("check_stability", &SRBDModel::checkStability,
+             py::arg("A_disc"))
+        .def("set_discretization_method", &SRBDModel::setDiscretizationMethod,
+             py::arg("method"))
+        .def("get_discretization_method", &SRBDModel::getDiscretizationMethod);
 
     m.def("skew_symmetric", [](const Eigen::Vector3d& v) {
         Eigen::Matrix3d skew;

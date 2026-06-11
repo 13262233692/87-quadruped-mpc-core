@@ -1,10 +1,10 @@
-Start testing: Jun 11 13:21 中国标准时间
+Start testing: Jun 11 13:48 中国标准时间
 ----------------------------------------------------------
-1/15 Testing: SRBDModelTest.SkewSymmetricMatrix
-1/15 Test: SRBDModelTest.SkewSymmetricMatrix
+1/26 Testing: SRBDModelTest.SkewSymmetricMatrix
+1/26 Test: SRBDModelTest.SkewSymmetricMatrix
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.SkewSymmetricMatrix" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.SkewSymmetricMatrix" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.SkewSymmetricMatrix" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.SkewSymmetricMatrix
@@ -22,15 +22,15 @@ Note: Google Test filter = SRBDModelTest.SkewSymmetricMatrix
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.SkewSymmetricMatrix" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.SkewSymmetricMatrix" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.SkewSymmetricMatrix" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/15 Testing: SRBDModelTest.StateConstruction
-2/15 Test: SRBDModelTest.StateConstruction
+2/26 Testing: SRBDModelTest.StateConstruction
+2/26 Test: SRBDModelTest.StateConstruction
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.StateConstruction" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.StateConstruction" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.StateConstruction" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.StateConstruction
@@ -45,18 +45,18 @@ Note: Google Test filter = SRBDModelTest.StateConstruction
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.StateConstruction" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.StateConstruction" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.StateConstruction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/15 Testing: SRBDModelTest.GravityFallsCorrectly
-3/15 Test: SRBDModelTest.GravityFallsCorrectly
+3/26 Testing: SRBDModelTest.GravityFallsCorrectly
+3/26 Test: SRBDModelTest.GravityFallsCorrectly
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.GravityFallsCorrectly" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.GravityFallsCorrectly" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.GravityFallsCorrectly" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.GravityFallsCorrectly
@@ -71,18 +71,18 @@ Note: Google Test filter = SRBDModelTest.GravityFallsCorrectly
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.GravityFallsCorrectly" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.GravityFallsCorrectly" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.GravityFallsCorrectly" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/15 Testing: SRBDModelTest.BalancedForcesEquilibrium
-4/15 Test: SRBDModelTest.BalancedForcesEquilibrium
+4/26 Testing: SRBDModelTest.BalancedForcesEquilibrium
+4/26 Test: SRBDModelTest.BalancedForcesEquilibrium
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.BalancedForcesEquilibrium" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.BalancedForcesEquilibrium" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.BalancedForcesEquilibrium" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.BalancedForcesEquilibrium
@@ -100,15 +100,15 @@ Note: Google Test filter = SRBDModelTest.BalancedForcesEquilibrium
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.BalancedForcesEquilibrium" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.BalancedForcesEquilibrium" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.BalancedForcesEquilibrium" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/15 Testing: SRBDModelTest.AMatrixDimensions
-5/15 Test: SRBDModelTest.AMatrixDimensions
+5/26 Testing: SRBDModelTest.AMatrixDimensions
+5/26 Test: SRBDModelTest.AMatrixDimensions
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.AMatrixDimensions" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.AMatrixDimensions" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.AMatrixDimensions" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.AMatrixDimensions
@@ -126,15 +126,15 @@ Note: Google Test filter = SRBDModelTest.AMatrixDimensions
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.AMatrixDimensions" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.AMatrixDimensions" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.AMatrixDimensions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/15 Testing: SRBDModelTest.BMatrixDimensions
-6/15 Test: SRBDModelTest.BMatrixDimensions
+6/26 Testing: SRBDModelTest.BMatrixDimensions
+6/26 Test: SRBDModelTest.BMatrixDimensions
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.BMatrixDimensions" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.BMatrixDimensions" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.BMatrixDimensions" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.BMatrixDimensions
@@ -152,15 +152,15 @@ Note: Google Test filter = SRBDModelTest.BMatrixDimensions
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.BMatrixDimensions" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.BMatrixDimensions" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.BMatrixDimensions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/15 Testing: SRBDModelTest.BMatrixZeroForNoContact
-7/15 Test: SRBDModelTest.BMatrixZeroForNoContact
+7/26 Testing: SRBDModelTest.BMatrixZeroForNoContact
+7/26 Test: SRBDModelTest.BMatrixZeroForNoContact
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.BMatrixZeroForNoContact" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.BMatrixZeroForNoContact" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.BMatrixZeroForNoContact" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.BMatrixZeroForNoContact
@@ -178,15 +178,15 @@ Note: Google Test filter = SRBDModelTest.BMatrixZeroForNoContact
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.BMatrixZeroForNoContact" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.BMatrixZeroForNoContact" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.BMatrixZeroForNoContact" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-8/15 Testing: SRBDModelTest.RK4IntegrationConservesQuaternionNorm
-8/15 Test: SRBDModelTest.RK4IntegrationConservesQuaternionNorm
+8/26 Testing: SRBDModelTest.RK4IntegrationConservesQuaternionNorm
+8/26 Test: SRBDModelTest.RK4IntegrationConservesQuaternionNorm
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.RK4IntegrationConservesQuaternionNorm" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.RK4IntegrationConservesQuaternionNorm" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.RK4IntegrationConservesQuaternionNorm" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.RK4IntegrationConservesQuaternionNorm
@@ -201,18 +201,18 @@ Note: Google Test filter = SRBDModelTest.RK4IntegrationConservesQuaternionNorm
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.RK4IntegrationConservesQuaternionNorm" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.RK4IntegrationConservesQuaternionNorm" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.RK4IntegrationConservesQuaternionNorm" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/15 Testing: SRBDModelTest.DiscreteAMatrixIdentityForZeroDt
-9/15 Test: SRBDModelTest.DiscreteAMatrixIdentityForZeroDt
+9/26 Testing: SRBDModelTest.DiscreteAMatrixIdentityForZeroDt
+9/26 Test: SRBDModelTest.DiscreteAMatrixIdentityForZeroDt
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.DiscreteAMatrixIdentityForZeroDt" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.DiscreteAMatrixIdentityForZeroDt" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.DiscreteAMatrixIdentityForZeroDt" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.DiscreteAMatrixIdentityForZeroDt
@@ -227,18 +227,18 @@ Note: Google Test filter = SRBDModelTest.DiscreteAMatrixIdentityForZeroDt
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.DiscreteAMatrixIdentityForZeroDt" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.DiscreteAMatrixIdentityForZeroDt" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.DiscreteAMatrixIdentityForZeroDt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/15 Testing: SRBDModelTest.DiscreteBMatrixSmallForZeroDt
-10/15 Test: SRBDModelTest.DiscreteBMatrixSmallForZeroDt
+10/26 Testing: SRBDModelTest.DiscreteBMatrixSmallForZeroDt
+10/26 Test: SRBDModelTest.DiscreteBMatrixSmallForZeroDt
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.DiscreteBMatrixSmallForZeroDt" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.DiscreteBMatrixSmallForZeroDt" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.DiscreteBMatrixSmallForZeroDt" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.DiscreteBMatrixSmallForZeroDt
@@ -256,15 +256,15 @@ Note: Google Test filter = SRBDModelTest.DiscreteBMatrixSmallForZeroDt
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.DiscreteBMatrixSmallForZeroDt" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.DiscreteBMatrixSmallForZeroDt" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.DiscreteBMatrixSmallForZeroDt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-11/15 Testing: SRBDModelTest.RotationMatrixIdentityForDefaultOrientation
-11/15 Test: SRBDModelTest.RotationMatrixIdentityForDefaultOrientation
+11/26 Testing: SRBDModelTest.RotationMatrixIdentityForDefaultOrientation
+11/26 Test: SRBDModelTest.RotationMatrixIdentityForDefaultOrientation
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.RotationMatrixIdentityForDefaultOrientation" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.RotationMatrixIdentityForDefaultOrientation" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.RotationMatrixIdentityForDefaultOrientation" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.RotationMatrixIdentityForDefaultOrientation
@@ -282,15 +282,15 @@ Note: Google Test filter = SRBDModelTest.RotationMatrixIdentityForDefaultOrienta
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.RotationMatrixIdentityForDefaultOrientation" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.RotationMatrixIdentityForDefaultOrientation" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.RotationMatrixIdentityForDefaultOrientation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-12/15 Testing: SRBDModelTest.InvalidMassThrows
-12/15 Test: SRBDModelTest.InvalidMassThrows
+12/26 Testing: SRBDModelTest.InvalidMassThrows
+12/26 Test: SRBDModelTest.InvalidMassThrows
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.InvalidMassThrows" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.InvalidMassThrows" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.InvalidMassThrows" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.InvalidMassThrows
@@ -308,15 +308,15 @@ Note: Google Test filter = SRBDModelTest.InvalidMassThrows
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.InvalidMassThrows" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.InvalidMassThrows" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.InvalidMassThrows" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-13/15 Testing: SRBDModelTest.AsymmetricInertiaThrows
-13/15 Test: SRBDModelTest.AsymmetricInertiaThrows
+13/26 Testing: SRBDModelTest.AsymmetricInertiaThrows
+13/26 Test: SRBDModelTest.AsymmetricInertiaThrows
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.AsymmetricInertiaThrows" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.AsymmetricInertiaThrows" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.AsymmetricInertiaThrows" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.AsymmetricInertiaThrows
@@ -334,15 +334,15 @@ Note: Google Test filter = SRBDModelTest.AsymmetricInertiaThrows
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.AsymmetricInertiaThrows" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.AsymmetricInertiaThrows" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.AsymmetricInertiaThrows" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-14/15 Testing: SRBDModelTest.QuaternionJacobianCorrectSize
-14/15 Test: SRBDModelTest.QuaternionJacobianCorrectSize
+14/26 Testing: SRBDModelTest.QuaternionJacobianCorrectSize
+14/26 Test: SRBDModelTest.QuaternionJacobianCorrectSize
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.QuaternionJacobianCorrectSize" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.QuaternionJacobianCorrectSize" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.QuaternionJacobianCorrectSize" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.QuaternionJacobianCorrectSize
@@ -357,18 +357,18 @@ Note: Google Test filter = SRBDModelTest.QuaternionJacobianCorrectSize
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.QuaternionJacobianCorrectSize" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.QuaternionJacobianCorrectSize" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.QuaternionJacobianCorrectSize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-15/15 Testing: SRBDModelTest.RK4FreeFallMatchesAnalytical
-15/15 Test: SRBDModelTest.RK4FreeFallMatchesAnalytical
+15/26 Testing: SRBDModelTest.RK4FreeFallMatchesAnalytical
+15/26 Test: SRBDModelTest.RK4FreeFallMatchesAnalytical
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.RK4FreeFallMatchesAnalytical" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.RK4FreeFallMatchesAnalytical" start time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.RK4FreeFallMatchesAnalytical" start time: Jun 11 13:48 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.RK4FreeFallMatchesAnalytical
@@ -383,11 +383,297 @@ Note: Google Test filter = SRBDModelTest.RK4FreeFallMatchesAnalytical
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.RK4FreeFallMatchesAnalytical" end time: Jun 11 13:21 中国标准时间
+"SRBDModelTest.RK4FreeFallMatchesAnalytical" end time: Jun 11 13:48 中国标准时间
 "SRBDModelTest.RK4FreeFallMatchesAnalytical" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 11 13:21 中国标准时间
+16/26 Testing: SRBDModelTest.MatrixExponentialIdentity
+16/26 Test: SRBDModelTest.MatrixExponentialIdentity
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.MatrixExponentialIdentity" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SRBDModelTest.MatrixExponentialIdentity" start time: Jun 11 13:48 中国标准时间
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SRBDModelTest.MatrixExponentialIdentity
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SRBDModelTest
+[ RUN      ] SRBDModelTest.MatrixExponentialIdentity
+[       OK ] SRBDModelTest.MatrixExponentialIdentity (0 ms)
+[----------] 1 test from SRBDModelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SRBDModelTest.MatrixExponentialIdentity" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.MatrixExponentialIdentity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/26 Testing: SRBDModelTest.MatrixExponentialScalingProperty
+17/26 Test: SRBDModelTest.MatrixExponentialScalingProperty
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.MatrixExponentialScalingProperty" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SRBDModelTest.MatrixExponentialScalingProperty" start time: Jun 11 13:48 中国标准时间
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SRBDModelTest.MatrixExponentialScalingProperty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SRBDModelTest
+[ RUN      ] SRBDModelTest.MatrixExponentialScalingProperty
+[       OK ] SRBDModelTest.MatrixExponentialScalingProperty (0 ms)
+[----------] 1 test from SRBDModelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SRBDModelTest.MatrixExponentialScalingProperty" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.MatrixExponentialScalingProperty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/26 Testing: SRBDModelTest.ForwardEulerUnstableForLargeDt
+18/26 Test: SRBDModelTest.ForwardEulerUnstableForLargeDt
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.ForwardEulerUnstableForLargeDt" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SRBDModelTest.ForwardEulerUnstableForLargeDt" start time: Jun 11 13:48 中国标准时间
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SRBDModelTest.ForwardEulerUnstableForLargeDt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SRBDModelTest
+[ RUN      ] SRBDModelTest.ForwardEulerUnstableForLargeDt
+[       OK ] SRBDModelTest.ForwardEulerUnstableForLargeDt (0 ms)
+[----------] 1 test from SRBDModelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SRBDModelTest.ForwardEulerUnstableForLargeDt" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.ForwardEulerUnstableForLargeDt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/26 Testing: SRBDModelTest.MatrixExponentialAlwaysStable
+19/26 Test: SRBDModelTest.MatrixExponentialAlwaysStable
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.MatrixExponentialAlwaysStable" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SRBDModelTest.MatrixExponentialAlwaysStable" start time: Jun 11 13:48 中国标准时间
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SRBDModelTest.MatrixExponentialAlwaysStable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SRBDModelTest
+[ RUN      ] SRBDModelTest.MatrixExponentialAlwaysStable
+[       OK ] SRBDModelTest.MatrixExponentialAlwaysStable (0 ms)
+[----------] 1 test from SRBDModelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SRBDModelTest.MatrixExponentialAlwaysStable" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.MatrixExponentialAlwaysStable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/26 Testing: SRBDModelTest.TustinAlwaysStable
+20/26 Test: SRBDModelTest.TustinAlwaysStable
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.TustinAlwaysStable" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SRBDModelTest.TustinAlwaysStable" start time: Jun 11 13:48 中国标准时间
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SRBDModelTest.TustinAlwaysStable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SRBDModelTest
+[ RUN      ] SRBDModelTest.TustinAlwaysStable
+[       OK ] SRBDModelTest.TustinAlwaysStable (0 ms)
+[----------] 1 test from SRBDModelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SRBDModelTest.TustinAlwaysStable" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.TustinAlwaysStable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/26 Testing: SRBDModelTest.SpectralRadiusComputation
+21/26 Test: SRBDModelTest.SpectralRadiusComputation
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.SpectralRadiusComputation" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SRBDModelTest.SpectralRadiusComputation" start time: Jun 11 13:48 中国标准时间
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SRBDModelTest.SpectralRadiusComputation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SRBDModelTest
+[ RUN      ] SRBDModelTest.SpectralRadiusComputation
+[       OK ] SRBDModelTest.SpectralRadiusComputation (0 ms)
+[----------] 1 test from SRBDModelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SRBDModelTest.SpectralRadiusComputation" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.SpectralRadiusComputation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/26 Testing: SRBDModelTest.CheckStability
+22/26 Test: SRBDModelTest.CheckStability
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.CheckStability" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SRBDModelTest.CheckStability" start time: Jun 11 13:48 中国标准时间
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SRBDModelTest.CheckStability
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SRBDModelTest
+[ RUN      ] SRBDModelTest.CheckStability
+[       OK ] SRBDModelTest.CheckStability (0 ms)
+[----------] 1 test from SRBDModelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SRBDModelTest.CheckStability" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.CheckStability" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/26 Testing: SRBDModelTest.DiscretizeMethodSwitch
+23/26 Test: SRBDModelTest.DiscretizeMethodSwitch
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.DiscretizeMethodSwitch" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SRBDModelTest.DiscretizeMethodSwitch" start time: Jun 11 13:48 中国标准时间
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SRBDModelTest.DiscretizeMethodSwitch
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SRBDModelTest
+[ RUN      ] SRBDModelTest.DiscretizeMethodSwitch
+[       OK ] SRBDModelTest.DiscretizeMethodSwitch (0 ms)
+[----------] 1 test from SRBDModelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SRBDModelTest.DiscretizeMethodSwitch" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.DiscretizeMethodSwitch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/26 Testing: SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp
+24/26 Test: SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp" start time: Jun 11 13:48 中国标准时间
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SRBDModelTest
+[ RUN      ] SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp
+[       OK ] SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp (0 ms)
+[----------] 1 test from SRBDModelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/26 Testing: SRBDModelTest.DiscretizationAccuracyConvergence
+25/26 Test: SRBDModelTest.DiscretizationAccuracyConvergence
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.DiscretizationAccuracyConvergence" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SRBDModelTest.DiscretizationAccuracyConvergence" start time: Jun 11 13:48 中国标准时间
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SRBDModelTest.DiscretizationAccuracyConvergence
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SRBDModelTest
+[ RUN      ] SRBDModelTest.DiscretizationAccuracyConvergence
+[       OK ] SRBDModelTest.DiscretizationAccuracyConvergence (0 ms)
+[----------] 1 test from SRBDModelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SRBDModelTest.DiscretizationAccuracyConvergence" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.DiscretizationAccuracyConvergence" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/26 Testing: SRBDModelTest.DefaultDiscretizationMethod
+26/26 Test: SRBDModelTest.DefaultDiscretizationMethod
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.DefaultDiscretizationMethod" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SRBDModelTest.DefaultDiscretizationMethod" start time: Jun 11 13:48 中国标准时间
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SRBDModelTest.DefaultDiscretizationMethod
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SRBDModelTest
+[ RUN      ] SRBDModelTest.DefaultDiscretizationMethod
+[       OK ] SRBDModelTest.DefaultDiscretizationMethod (0 ms)
+[----------] 1 test from SRBDModelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SRBDModelTest.DefaultDiscretizationMethod" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.DefaultDiscretizationMethod" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 11 13:48 中国标准时间

@@ -1,10 +1,10 @@
 {
-  "tests": 15,
+  "tests": 26,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "SRBDModelTest",
-      "tests": 15,
+      "tests": 26,
       "testsuite": [
         {
           "name": "SkewSymmetricMatrix",
@@ -80,6 +80,61 @@
           "name": "RK4FreeFallMatchesAnalytical",
           "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
           "line": 200
+        },
+        {
+          "name": "MatrixExponentialIdentity",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 218
+        },
+        {
+          "name": "MatrixExponentialScalingProperty",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 227
+        },
+        {
+          "name": "ForwardEulerUnstableForLargeDt",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 240
+        },
+        {
+          "name": "MatrixExponentialAlwaysStable",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 261
+        },
+        {
+          "name": "TustinAlwaysStable",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 273
+        },
+        {
+          "name": "SpectralRadiusComputation",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 285
+        },
+        {
+          "name": "CheckStability",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 291
+        },
+        {
+          "name": "DiscretizeMethodSwitch",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 299
+        },
+        {
+          "name": "LargeDtComparisonForwardEulerVsMatrixExp",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 327
+        },
+        {
+          "name": "DiscretizationAccuracyConvergence",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 347
+        },
+        {
+          "name": "DefaultDiscretizationMethod",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_srbd_model.cpp",
+          "line": 370
         }
       ]
     }

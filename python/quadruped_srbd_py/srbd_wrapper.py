@@ -54,6 +54,27 @@ STATE_DIM = 13
 INPUT_DIM = 12
 NUM_LEGS = 4
 
+DiscretizationMethod = cpp.DiscretizationMethod
+
+
+class DiscretizationResult:
+    """
+    Result of discretization, including stability analysis.
+    """
+    def __init__(self, A_d: np.ndarray, B_d: np.ndarray, 
+                 matrix_exp_series_terms: int,
+                 spectral_radius: float, is_stable: bool):
+        self.A_d = A_d
+        self.B_d = B_d
+        self.matrix_exp_series_terms = matrix_exp_series_terms
+        self.spectral_radius = spectral_radius
+        self.is_stable = is_stable
+    
+    def __repr__(self):
+        return (f"DiscretizationResult(stable={self.is_stable}, "
+                f"spectral_radius={self.spectral_radius:.6f}, "
+                f"terms={self.matrix_exp_series_terms})")
+
 
 class SRBDWrapper:
     """
@@ -290,3 +311,65 @@ class SRBDWrapper:
     def rotation_matrix(self, state: np.ndarray) -> np.ndarray:
         """Get rotation matrix from state orientation."""
         return self._model.rotation_matrix(np.array(state, dtype=np.float64))
+
+    def discretize(
+        self,
+        state: np.ndarray,
+        foot_positions: List[np.ndarray],
+        contact: List[bool],
+        dt: float,
+        method: DiscretizationMethod = DiscretizationMethod.MATRIX_EXPONENTIAL
+    ) -> DiscretizationResult:
+        """
+        Discretize the continuous state-space model.
+        
+        Args:
+            state: State vector (13,)
+            foot_positions: List of 4 foot positions (each 3,)
+            contact: List of 4 booleans
+            dt: Time step
+            method: Discretization method
+            
+        Returns:
+            DiscretizationResult with A_d, B_d, and stability info
+        """
+        fp = [np.array(p, dtype=np.float64) for p in foot_positions]
+        result = self._model.discretize(
+            np.array(state, dtype=np.float64),
+            fp, list(contact), dt, method
+        )
+        return DiscretizationResult(
+            A_d=result.A_d,
+            B_d=result.B_d,
+            matrix_exp_series_terms=result.matrix_exp_series_terms,
+            spectral_radius=result.spectral_radius,
+            is_stable=result.is_stable
+        )
+
+    def spectral_radius(self, A: np.ndarray) -> float:
+        """Compute spectral radius of a matrix."""
+        return self._model.spectral_radius(np.array(A, dtype=np.float64))
+
+    def check_stability(self, A_disc: np.ndarray) -> bool:
+        """Check if discrete-time system is stable (spectral radius <= 1)."""
+        return self._model.check_stability(np.array(A_disc, dtype=np.float64))
+
+    def matrix_exponential(self, A: np.ndarray) -> Tuple[np.ndarray, int]:
+        """
+        Compute matrix exponential using scaling and squaring.
+        
+        Returns:
+            Tuple of (exp_A, num_terms_used)
+        """
+        exp_A, terms = self._model.matrix_exponential(
+            np.array(A, dtype=np.float64)
+        )
+        return exp_A, terms
+
+    def set_discretization_method(self, method: DiscretizationMethod):
+        """Set the default discretization method."""
+        self._model.set_discretization_method(method)
+
+    def get_discretization_method(self) -> DiscretizationMethod:
+        """Get the current default discretization method."""
+        return self._model.get_discretization_method()

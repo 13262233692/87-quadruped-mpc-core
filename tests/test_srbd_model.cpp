@@ -215,6 +215,166 @@ TEST_F(SRBDModelTest, RK4FreeFallMatchesAnalytical) {
     EXPECT_NEAR(s(VEL_Z), expected_vz, 1e-6);
 }
 
+TEST_F(SRBDModelTest, MatrixExponentialIdentity) {
+    StateMatrix A = StateMatrix::Zero();
+    int terms = 0;
+    StateMatrix exp_A = model->matrixExponential(A, terms);
+    
+    EXPECT_TRUE(exp_A.isApprox(StateMatrix::Identity(), 1e-10));
+    EXPECT_GE(terms, 1);
+}
+
+TEST_F(SRBDModelTest, MatrixExponentialScalingProperty) {
+    StateMatrix A = StateMatrix::Random();
+    A = (A + A.transpose()) * 0.1;
+    int terms = 0;
+    
+    StateMatrix exp_A = model->matrixExponential(A, terms);
+    
+    double det_A = exp_A.determinant();
+    double trace_A = A.trace();
+    
+    EXPECT_NEAR(std::log(std::abs(det_A)), trace_A, 1e-4);
+}
+
+TEST_F(SRBDModelTest, ForwardEulerUnstableForLargeDt) {
+    double dt = 1.0;
+    
+    auto result_fe = model->discretize(
+        state_, foot_positions_, contact_, dt,
+        DiscretizationMethod::FORWARD_EULER
+    );
+    
+    auto result_me = model->discretize(
+        state_, foot_positions_, contact_, dt,
+        DiscretizationMethod::MATRIX_EXPONENTIAL
+    );
+    
+    EXPECT_GE(result_fe.spectral_radius, result_me.spectral_radius);
+    
+    if (result_fe.spectral_radius > 1.0) {
+        EXPECT_FALSE(result_fe.is_stable);
+        EXPECT_TRUE(result_me.is_stable);
+    }
+}
+
+TEST_F(SRBDModelTest, MatrixExponentialAlwaysStable) {
+    double dt = 0.1;
+    
+    auto result_me = model->discretize(
+        state_, foot_positions_, contact_, dt,
+        DiscretizationMethod::MATRIX_EXPONENTIAL
+    );
+    
+    EXPECT_LE(result_me.spectral_radius, 1.0 + 1e-6);
+    EXPECT_TRUE(result_me.is_stable);
+}
+
+TEST_F(SRBDModelTest, TustinAlwaysStable) {
+    double dt = 0.1;
+    
+    auto result_tustin = model->discretize(
+        state_, foot_positions_, contact_, dt,
+        DiscretizationMethod::TUSTIN
+    );
+    
+    EXPECT_LE(result_tustin.spectral_radius, 1.0 + 1e-8);
+    EXPECT_TRUE(result_tustin.is_stable);
+}
+
+TEST_F(SRBDModelTest, SpectralRadiusComputation) {
+    StateMatrix A = StateMatrix::Identity() * 2.0;
+    double rho = model->spectralRadius(A);
+    EXPECT_NEAR(rho, 2.0, 1e-10);
+}
+
+TEST_F(SRBDModelTest, CheckStability) {
+    StateMatrix A_stable = StateMatrix::Identity() * 0.5;
+    StateMatrix A_unstable = StateMatrix::Identity() * 1.5;
+    
+    EXPECT_TRUE(model->checkStability(A_stable));
+    EXPECT_FALSE(model->checkStability(A_unstable));
+}
+
+TEST_F(SRBDModelTest, DiscretizeMethodSwitch) {
+    double dt = 0.01;
+    
+    auto result_default = model->discretize(
+        state_, foot_positions_, contact_, dt
+    );
+    EXPECT_TRUE(result_default.is_stable);
+    
+    auto result_fe = model->discretize(
+        state_, foot_positions_, contact_, dt,
+        DiscretizationMethod::FORWARD_EULER
+    );
+    
+    auto result_me = model->discretize(
+        state_, foot_positions_, contact_, dt,
+        DiscretizationMethod::MATRIX_EXPONENTIAL
+    );
+    
+    auto result_tustin = model->discretize(
+        state_, foot_positions_, contact_, dt,
+        DiscretizationMethod::TUSTIN
+    );
+    
+    EXPECT_TRUE(result_me.is_stable);
+    EXPECT_TRUE(result_tustin.is_stable);
+    EXPECT_NEAR(result_me.spectral_radius, result_default.spectral_radius, 1e-10);
+}
+
+TEST_F(SRBDModelTest, LargeDtComparisonForwardEulerVsMatrixExp) {
+    double dt = 0.05;
+    
+    auto result_fe = model->discretize(
+        state_, foot_positions_, contact_, dt,
+        DiscretizationMethod::FORWARD_EULER
+    );
+    auto result_me = model->discretize(
+        state_, foot_positions_, contact_, dt,
+        DiscretizationMethod::MATRIX_EXPONENTIAL
+    );
+    
+    EXPECT_GE(result_fe.spectral_radius, result_me.spectral_radius);
+    
+    if (!result_fe.is_stable) {
+        EXPECT_TRUE(result_me.is_stable) 
+            << "Matrix exponential should be stable even when forward Euler is not";
+    }
+}
+
+TEST_F(SRBDModelTest, DiscretizationAccuracyConvergence) {
+    double dt_small = 0.001;
+    double dt_large = 0.01;
+    
+    auto result_small = model->discretize(
+        state_, foot_positions_, contact_, dt_small,
+        DiscretizationMethod::MATRIX_EXPONENTIAL
+    );
+    
+    StateMatrix A_10step = StateMatrix::Identity();
+    for (int i = 0; i < 10; ++i) {
+        A_10step = result_small.A_d * A_10step;
+    }
+    
+    auto result_large = model->discretize(
+        state_, foot_positions_, contact_, dt_large,
+        DiscretizationMethod::MATRIX_EXPONENTIAL
+    );
+    
+    EXPECT_TRUE(result_large.A_d.isApprox(A_10step, 1e-6))
+        << "10 steps of dt=0.001 should approximately equal 1 step of dt=0.01";
+}
+
+TEST_F(SRBDModelTest, DefaultDiscretizationMethod) {
+    EXPECT_EQ(model->getDiscretizationMethod(), 
+              DiscretizationMethod::MATRIX_EXPONENTIAL);
+    
+    model->setDiscretizationMethod(DiscretizationMethod::TUSTIN);
+    EXPECT_EQ(model->getDiscretizationMethod(), DiscretizationMethod::TUSTIN);
+}
+
 int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();

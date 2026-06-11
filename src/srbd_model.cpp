@@ -1,12 +1,15 @@
 #include "srbd_model.h"
 #include <cmath>
 #include <stdexcept>
+#include <algorithm>
+#include <iostream>
 
 namespace quadruped {
 
 SRBDModel::SRBDModel()
     : mass_(12.0)
     , gravity_(0.0, 0.0, -9.81)
+    , default_method_(DiscretizationMethod::MATRIX_EXPONENTIAL)
 {
     inertia_ = Eigen::Matrix3d::Identity();
     inertia_ *= 0.2;
@@ -113,14 +116,13 @@ StateVector SRBDModel::continuousDynamics(
 
     state_deriv.segment<3>(POS_X) = lin_vel;
 
-    Eigen::Matrix<double, 4, 1> q_dot;
     Eigen::Vector4d q_vec(quat.w(), quat.x(), quat.y(), quat.z());
     Eigen::Matrix4d Omega;
     Omega << 0.0,   -ang_vel.x(), -ang_vel.y(), -ang_vel.z(),
              ang_vel.x(),  0.0,    ang_vel.z(), -ang_vel.y(),
              ang_vel.y(), -ang_vel.z(),  0.0,    ang_vel.x(),
              ang_vel.z(),  ang_vel.y(), -ang_vel.x(),  0.0;
-    q_dot = 0.5 * Omega * q_vec;
+    Eigen::Vector4d q_dot = 0.5 * Omega * q_vec;
     state_deriv(QUAT_W) = q_dot(0);
     state_deriv(QUAT_X) = q_dot(1);
     state_deriv(QUAT_Y) = q_dot(2);
@@ -160,9 +162,7 @@ StateMatrix SRBDModel::continuousAMatrix(
     StateMatrix A = StateMatrix::Zero();
 
     Eigen::Quaterniond quat = getOrientation(state);
-    Eigen::Vector3d lin_vel = getLinearVelocity(state);
     Eigen::Vector3d ang_vel = getAngularVelocity(state);
-    Eigen::Matrix3d R = quat.toRotationMatrix();
 
     A.block<3, 3>(POS_X, VEL_X) = Eigen::Matrix3d::Identity();
 
@@ -270,12 +270,11 @@ StateMatrix SRBDModel::discreteAMatrix(
     const ContactArray& contact,
     double dt
 ) const {
-    StateMatrix A_cont = continuousAMatrix(state, foot_positions, contact);
-    
-    StateMatrix A_disc = StateMatrix::Identity() + dt * A_cont 
-                        + 0.5 * dt * dt * A_cont * A_cont;
-    
-    return A_disc;
+    StateMatrix A_cont;
+    InputMatrix B_cont;
+    continuousABMatrices(state, foot_positions, contact, A_cont, B_cont);
+    auto result = discretize(A_cont, B_cont, dt, default_method_);
+    return result.A_d;
 }
 
 InputMatrix SRBDModel::discreteBMatrix(
@@ -287,13 +286,226 @@ InputMatrix SRBDModel::discreteBMatrix(
     StateMatrix A_cont;
     InputMatrix B_cont;
     continuousABMatrices(state, foot_positions, contact, A_cont, B_cont);
+    auto result = discretize(A_cont, B_cont, dt, default_method_);
+    return result.B_d;
+}
 
-    StateMatrix A_disc = discreteAMatrix(state, foot_positions, contact, dt);
+DiscretizationResult SRBDModel::discretize(
+    const StateVector& state,
+    const FootPosArray& foot_positions,
+    const ContactArray& contact,
+    double dt,
+    DiscretizationMethod method
+) const {
+    StateMatrix A_cont;
+    InputMatrix B_cont;
+    continuousABMatrices(state, foot_positions, contact, A_cont, B_cont);
+    return discretize(A_cont, B_cont, dt, method);
+}
+
+DiscretizationResult SRBDModel::discretize(
+    const StateMatrix& A_cont,
+    const InputMatrix& B_cont,
+    double dt,
+    DiscretizationMethod method
+) const {
+    switch (method) {
+        case DiscretizationMethod::FORWARD_EULER:
+            return discretizeForwardEuler(A_cont, B_cont, dt);
+        case DiscretizationMethod::MATRIX_EXPONENTIAL:
+        case DiscretizationMethod::ZOH:
+            return discretizeMatrixExponential(A_cont, B_cont, dt);
+        case DiscretizationMethod::TUSTIN:
+            return discretizeTustin(A_cont, B_cont, dt);
+        default:
+            return discretizeMatrixExponential(A_cont, B_cont, dt);
+    }
+}
+
+StateMatrix SRBDModel::matrixExponential(
+    const StateMatrix& A,
+    int& num_terms_used
+) const {
+    return matrixExponentialScalingSquaring(A, num_terms_used);
+}
+
+StateMatrix SRBDModel::matrixExponentialTaylor(
+    const StateMatrix& A,
+    int& num_terms_used,
+    double tolerance,
+    int max_terms
+) const {
+    StateMatrix exp_A = StateMatrix::Identity();
+    StateMatrix term = StateMatrix::Identity();
     
-    InputMatrix B_disc = (A_disc - StateMatrix::Identity()) * 
-                         A_cont.colPivHouseholderQr().solve(B_cont);
+    num_terms_used = 1;
     
-    return B_disc;
+    for (int k = 1; k <= max_terms; ++k) {
+        term = term * A / k;
+        exp_A += term;
+        num_terms_used = k + 1;
+        
+        if (term.norm() < tolerance * exp_A.norm()) {
+            break;
+        }
+    }
+    
+    return exp_A;
+}
+
+StateMatrix SRBDModel::matrixExponentialScalingSquaring(
+    const StateMatrix& A,
+    int& num_terms_used,
+    double tolerance
+) const {
+    double norm_A = A.norm();
+    
+    int s = 0;
+    if (norm_A > 1.0) {
+        s = static_cast<int>(std::ceil(std::log2(norm_A)));
+    }
+    
+    StateMatrix A_scaled = A / std::pow(2.0, s);
+    
+    StateMatrix exp_scaled = matrixExponentialTaylor(
+        A_scaled, num_terms_used, tolerance, 50
+    );
+    
+    StateMatrix result = exp_scaled;
+    for (int i = 0; i < s; ++i) {
+        result = result * result;
+    }
+    
+    return result;
+}
+
+Eigen::MatrixXd SRBDModel::matrixExponentialDynamic(
+    const Eigen::MatrixXd& A,
+    int& num_terms_used,
+    double tolerance
+) const {
+    double norm_A = A.norm();
+    
+    int s = 0;
+    if (norm_A > 1.0) {
+        s = static_cast<int>(std::ceil(std::log2(norm_A)));
+    }
+    
+    Eigen::MatrixXd A_scaled = A / std::pow(2.0, s);
+    
+    int n = A.rows();
+    Eigen::MatrixXd exp_A = Eigen::MatrixXd::Identity(n, n);
+    Eigen::MatrixXd term = Eigen::MatrixXd::Identity(n, n);
+    
+    num_terms_used = 1;
+    
+    for (int k = 1; k <= 50; ++k) {
+        term = term * A_scaled / k;
+        exp_A += term;
+        num_terms_used = k + 1;
+        
+        if (term.norm() < tolerance * exp_A.norm()) {
+            break;
+        }
+    }
+    
+    Eigen::MatrixXd result = exp_A;
+    for (int i = 0; i < s; ++i) {
+        result = result * result;
+    }
+    
+    return result;
+}
+
+DiscretizationResult SRBDModel::discretizeMatrixExponential(
+    const StateMatrix& A_cont,
+    const InputMatrix& B_cont,
+    double dt
+) const {
+    DiscretizationResult result;
+    
+    constexpr int aug_dim = STATE_DIM + INPUT_DIM;
+    Eigen::MatrixXd M(aug_dim, aug_dim);
+    M.setZero();
+    
+    M.block<STATE_DIM, STATE_DIM>(0, 0) = dt * A_cont;
+    M.block<STATE_DIM, INPUT_DIM>(0, STATE_DIM) = dt * B_cont;
+    
+    int terms_used;
+    Eigen::MatrixXd exp_M = matrixExponentialDynamic(M, terms_used);
+    result.matrix_exp_series_terms = terms_used;
+    
+    result.A_d = exp_M.block<STATE_DIM, STATE_DIM>(0, 0);
+    result.B_d = exp_M.block<STATE_DIM, INPUT_DIM>(0, STATE_DIM);
+    
+    result.spectral_radius = spectralRadius(result.A_d);
+    result.is_stable = checkStability(result.A_d);
+    
+    return result;
+}
+
+DiscretizationResult SRBDModel::discretizeTustin(
+    const StateMatrix& A_cont,
+    const InputMatrix& B_cont,
+    double dt
+) const {
+    DiscretizationResult result;
+    result.matrix_exp_series_terms = 0;
+    
+    StateMatrix I = StateMatrix::Identity();
+    StateMatrix half_dt_A = 0.5 * dt * A_cont;
+    
+    StateMatrix lhs = I - half_dt_A;
+    StateMatrix rhs = I + half_dt_A;
+    
+    result.A_d = lhs.colPivHouseholderQr().solve(rhs);
+    
+    InputMatrix B_d_part1 = 0.5 * dt * B_cont;
+    InputMatrix B_d_part2 = lhs.colPivHouseholderQr().solve(B_d_part1);
+    
+    result.B_d = B_d_part1 + 0.5 * dt * A_cont * B_d_part2;
+    result.B_d = lhs.colPivHouseholderQr().solve(result.B_d);
+    
+    result.spectral_radius = spectralRadius(result.A_d);
+    result.is_stable = checkStability(result.A_d);
+    
+    return result;
+}
+
+DiscretizationResult SRBDModel::discretizeForwardEuler(
+    const StateMatrix& A_cont,
+    const InputMatrix& B_cont,
+    double dt
+) const {
+    DiscretizationResult result;
+    result.matrix_exp_series_terms = 2;
+    
+    result.A_d = StateMatrix::Identity() + dt * A_cont;
+    result.B_d = dt * B_cont;
+    
+    result.spectral_radius = spectralRadius(result.A_d);
+    result.is_stable = checkStability(result.A_d);
+    
+    return result;
+}
+
+double SRBDModel::spectralRadius(const StateMatrix& A) const {
+    Eigen::EigenSolver<StateMatrix> es(A);
+    auto eigenvalues = es.eigenvalues();
+    
+    double max_magnitude = 0.0;
+    for (int i = 0; i < STATE_DIM; ++i) {
+        double mag = std::abs(eigenvalues(i));
+        if (mag > max_magnitude) {
+            max_magnitude = mag;
+        }
+    }
+    
+    return max_magnitude;
+}
+
+bool SRBDModel::checkStability(const StateMatrix& A_disc) const {
+    return spectralRadius(A_disc) <= 1.0 + 1e-8;
 }
 
 } 

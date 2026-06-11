@@ -26,6 +26,21 @@ enum StateIndex {
     ANG_VEL_X = 10, ANG_VEL_Y = 11, ANG_VEL_Z = 12
 };
 
+enum class DiscretizationMethod {
+    FORWARD_EULER = 0,
+    MATRIX_EXPONENTIAL = 1,
+    TUSTIN = 2,
+    ZOH = 3
+};
+
+struct DiscretizationResult {
+    StateMatrix A_d;
+    InputMatrix B_d;
+    int matrix_exp_series_terms;
+    double spectral_radius;
+    bool is_stable;
+};
+
 class SRBDModel {
 public:
     SRBDModel();
@@ -103,13 +118,83 @@ public:
         double dt
     ) const;
 
+    DiscretizationResult discretize(
+        const StateVector& state,
+        const FootPosArray& foot_positions,
+        const ContactArray& contact,
+        double dt,
+        DiscretizationMethod method = DiscretizationMethod::MATRIX_EXPONENTIAL
+    ) const;
+
+    StateMatrix matrixExponential(
+        const StateMatrix& A,
+        int& num_terms_used
+    ) const;
+
+    StateMatrix matrixExponentialTaylor(
+        const StateMatrix& A,
+        int& num_terms_used,
+        double tolerance = 1e-12,
+        int max_terms = 50
+    ) const;
+
+    StateMatrix matrixExponentialScalingSquaring(
+        const StateMatrix& A,
+        int& num_terms_used,
+        double tolerance = 1e-12
+    ) const;
+
+    Eigen::MatrixXd matrixExponentialDynamic(
+        const Eigen::MatrixXd& A,
+        int& num_terms_used,
+        double tolerance = 1e-12
+    ) const;
+
+    DiscretizationResult discretizeMatrixExponential(
+        const StateMatrix& A_cont,
+        const InputMatrix& B_cont,
+        double dt
+    ) const;
+
+    DiscretizationResult discretizeTustin(
+        const StateMatrix& A_cont,
+        const InputMatrix& B_cont,
+        double dt
+    ) const;
+
+    DiscretizationResult discretizeForwardEuler(
+        const StateMatrix& A_cont,
+        const InputMatrix& B_cont,
+        double dt
+    ) const;
+
+    double spectralRadius(const StateMatrix& A) const;
+
+    bool checkStability(const StateMatrix& A_disc) const;
+
+    void setDiscretizationMethod(DiscretizationMethod method) {
+        default_method_ = method;
+    }
+
+    DiscretizationMethod getDiscretizationMethod() const {
+        return default_method_;
+    }
+
 private:
     double mass_;
     Eigen::Matrix3d inertia_;
     Eigen::Matrix3d inertia_inv_;
     Eigen::Vector3d gravity_;
+    DiscretizationMethod default_method_;
 
     void updateInertiaInverse();
+
+    DiscretizationResult discretize(
+        const StateMatrix& A_cont,
+        const InputMatrix& B_cont,
+        double dt,
+        DiscretizationMethod method
+    ) const;
 };
 
 } 
