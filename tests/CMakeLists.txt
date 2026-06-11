@@ -23,5 +23,17 @@ target_link_libraries(srbd_tests
         GTest::gtest_main
 )
 
+add_executable(swing_tests
+    test_swing_trajectory.cpp
+)
+
+target_link_libraries(swing_tests
+    PRIVATE
+        srbd_core
+        GTest::gtest
+        GTest::gtest_main
+)
+
 include(GoogleTest)
 gtest_discover_tests(srbd_tests)
+gtest_discover_tests(swing_tests)

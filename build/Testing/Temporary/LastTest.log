@@ -1,10 +1,10 @@
-Start testing: Jun 11 13:48 中国标准时间
+Start testing: Jun 11 14:49 中国标准时间
 ----------------------------------------------------------
-1/26 Testing: SRBDModelTest.SkewSymmetricMatrix
-1/26 Test: SRBDModelTest.SkewSymmetricMatrix
+1/55 Testing: SRBDModelTest.SkewSymmetricMatrix
+1/55 Test: SRBDModelTest.SkewSymmetricMatrix
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.SkewSymmetricMatrix" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.SkewSymmetricMatrix" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.SkewSymmetricMatrix" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.SkewSymmetricMatrix
@@ -19,18 +19,18 @@ Note: Google Test filter = SRBDModelTest.SkewSymmetricMatrix
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.SkewSymmetricMatrix" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.SkewSymmetricMatrix" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.SkewSymmetricMatrix" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/26 Testing: SRBDModelTest.StateConstruction
-2/26 Test: SRBDModelTest.StateConstruction
+2/55 Testing: SRBDModelTest.StateConstruction
+2/55 Test: SRBDModelTest.StateConstruction
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.StateConstruction" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.StateConstruction" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.StateConstruction" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.StateConstruction
@@ -45,18 +45,18 @@ Note: Google Test filter = SRBDModelTest.StateConstruction
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.StateConstruction" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.StateConstruction" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.StateConstruction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/26 Testing: SRBDModelTest.GravityFallsCorrectly
-3/26 Test: SRBDModelTest.GravityFallsCorrectly
+3/55 Testing: SRBDModelTest.GravityFallsCorrectly
+3/55 Test: SRBDModelTest.GravityFallsCorrectly
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.GravityFallsCorrectly" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.GravityFallsCorrectly" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.GravityFallsCorrectly" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.GravityFallsCorrectly
@@ -74,15 +74,15 @@ Note: Google Test filter = SRBDModelTest.GravityFallsCorrectly
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.GravityFallsCorrectly" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.GravityFallsCorrectly" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.GravityFallsCorrectly" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/26 Testing: SRBDModelTest.BalancedForcesEquilibrium
-4/26 Test: SRBDModelTest.BalancedForcesEquilibrium
+4/55 Testing: SRBDModelTest.BalancedForcesEquilibrium
+4/55 Test: SRBDModelTest.BalancedForcesEquilibrium
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.BalancedForcesEquilibrium" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.BalancedForcesEquilibrium" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.BalancedForcesEquilibrium" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.BalancedForcesEquilibrium
@@ -100,15 +100,15 @@ Note: Google Test filter = SRBDModelTest.BalancedForcesEquilibrium
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.BalancedForcesEquilibrium" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.BalancedForcesEquilibrium" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.BalancedForcesEquilibrium" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/26 Testing: SRBDModelTest.AMatrixDimensions
-5/26 Test: SRBDModelTest.AMatrixDimensions
+5/55 Testing: SRBDModelTest.AMatrixDimensions
+5/55 Test: SRBDModelTest.AMatrixDimensions
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.AMatrixDimensions" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.AMatrixDimensions" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.AMatrixDimensions" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.AMatrixDimensions
@@ -126,15 +126,15 @@ Note: Google Test filter = SRBDModelTest.AMatrixDimensions
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.AMatrixDimensions" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.AMatrixDimensions" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.AMatrixDimensions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/26 Testing: SRBDModelTest.BMatrixDimensions
-6/26 Test: SRBDModelTest.BMatrixDimensions
+6/55 Testing: SRBDModelTest.BMatrixDimensions
+6/55 Test: SRBDModelTest.BMatrixDimensions
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.BMatrixDimensions" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.BMatrixDimensions" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.BMatrixDimensions" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.BMatrixDimensions
@@ -152,15 +152,15 @@ Note: Google Test filter = SRBDModelTest.BMatrixDimensions
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.BMatrixDimensions" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.BMatrixDimensions" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.BMatrixDimensions" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/26 Testing: SRBDModelTest.BMatrixZeroForNoContact
-7/26 Test: SRBDModelTest.BMatrixZeroForNoContact
+7/55 Testing: SRBDModelTest.BMatrixZeroForNoContact
+7/55 Test: SRBDModelTest.BMatrixZeroForNoContact
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.BMatrixZeroForNoContact" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.BMatrixZeroForNoContact" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.BMatrixZeroForNoContact" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.BMatrixZeroForNoContact
@@ -178,15 +178,15 @@ Note: Google Test filter = SRBDModelTest.BMatrixZeroForNoContact
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.BMatrixZeroForNoContact" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.BMatrixZeroForNoContact" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.BMatrixZeroForNoContact" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-8/26 Testing: SRBDModelTest.RK4IntegrationConservesQuaternionNorm
-8/26 Test: SRBDModelTest.RK4IntegrationConservesQuaternionNorm
+8/55 Testing: SRBDModelTest.RK4IntegrationConservesQuaternionNorm
+8/55 Test: SRBDModelTest.RK4IntegrationConservesQuaternionNorm
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.RK4IntegrationConservesQuaternionNorm" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.RK4IntegrationConservesQuaternionNorm" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.RK4IntegrationConservesQuaternionNorm" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.RK4IntegrationConservesQuaternionNorm
@@ -204,15 +204,15 @@ Note: Google Test filter = SRBDModelTest.RK4IntegrationConservesQuaternionNorm
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.RK4IntegrationConservesQuaternionNorm" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.RK4IntegrationConservesQuaternionNorm" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.RK4IntegrationConservesQuaternionNorm" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/26 Testing: SRBDModelTest.DiscreteAMatrixIdentityForZeroDt
-9/26 Test: SRBDModelTest.DiscreteAMatrixIdentityForZeroDt
+9/55 Testing: SRBDModelTest.DiscreteAMatrixIdentityForZeroDt
+9/55 Test: SRBDModelTest.DiscreteAMatrixIdentityForZeroDt
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.DiscreteAMatrixIdentityForZeroDt" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.DiscreteAMatrixIdentityForZeroDt" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.DiscreteAMatrixIdentityForZeroDt" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.DiscreteAMatrixIdentityForZeroDt
@@ -227,18 +227,18 @@ Note: Google Test filter = SRBDModelTest.DiscreteAMatrixIdentityForZeroDt
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.DiscreteAMatrixIdentityForZeroDt" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.DiscreteAMatrixIdentityForZeroDt" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.DiscreteAMatrixIdentityForZeroDt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/26 Testing: SRBDModelTest.DiscreteBMatrixSmallForZeroDt
-10/26 Test: SRBDModelTest.DiscreteBMatrixSmallForZeroDt
+10/55 Testing: SRBDModelTest.DiscreteBMatrixSmallForZeroDt
+10/55 Test: SRBDModelTest.DiscreteBMatrixSmallForZeroDt
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.DiscreteBMatrixSmallForZeroDt" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.DiscreteBMatrixSmallForZeroDt" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.DiscreteBMatrixSmallForZeroDt" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.DiscreteBMatrixSmallForZeroDt
@@ -253,18 +253,18 @@ Note: Google Test filter = SRBDModelTest.DiscreteBMatrixSmallForZeroDt
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.DiscreteBMatrixSmallForZeroDt" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.DiscreteBMatrixSmallForZeroDt" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.DiscreteBMatrixSmallForZeroDt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-11/26 Testing: SRBDModelTest.RotationMatrixIdentityForDefaultOrientation
-11/26 Test: SRBDModelTest.RotationMatrixIdentityForDefaultOrientation
+11/55 Testing: SRBDModelTest.RotationMatrixIdentityForDefaultOrientation
+11/55 Test: SRBDModelTest.RotationMatrixIdentityForDefaultOrientation
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.RotationMatrixIdentityForDefaultOrientation" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.RotationMatrixIdentityForDefaultOrientation" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.RotationMatrixIdentityForDefaultOrientation" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.RotationMatrixIdentityForDefaultOrientation
@@ -282,15 +282,15 @@ Note: Google Test filter = SRBDModelTest.RotationMatrixIdentityForDefaultOrienta
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.RotationMatrixIdentityForDefaultOrientation" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.RotationMatrixIdentityForDefaultOrientation" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.RotationMatrixIdentityForDefaultOrientation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-12/26 Testing: SRBDModelTest.InvalidMassThrows
-12/26 Test: SRBDModelTest.InvalidMassThrows
+12/55 Testing: SRBDModelTest.InvalidMassThrows
+12/55 Test: SRBDModelTest.InvalidMassThrows
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.InvalidMassThrows" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.InvalidMassThrows" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.InvalidMassThrows" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.InvalidMassThrows
@@ -298,25 +298,25 @@ Note: Google Test filter = SRBDModelTest.InvalidMassThrows
 [----------] Global test environment set-up.
 [----------] 1 test from SRBDModelTest
 [ RUN      ] SRBDModelTest.InvalidMassThrows
-[       OK ] SRBDModelTest.InvalidMassThrows (0 ms)
-[----------] 1 test from SRBDModelTest (0 ms total)
+[       OK ] SRBDModelTest.InvalidMassThrows (1 ms)
+[----------] 1 test from SRBDModelTest (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.InvalidMassThrows" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.InvalidMassThrows" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.InvalidMassThrows" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-13/26 Testing: SRBDModelTest.AsymmetricInertiaThrows
-13/26 Test: SRBDModelTest.AsymmetricInertiaThrows
+13/55 Testing: SRBDModelTest.AsymmetricInertiaThrows
+13/55 Test: SRBDModelTest.AsymmetricInertiaThrows
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.AsymmetricInertiaThrows" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.AsymmetricInertiaThrows" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.AsymmetricInertiaThrows" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.AsymmetricInertiaThrows
@@ -334,15 +334,15 @@ Note: Google Test filter = SRBDModelTest.AsymmetricInertiaThrows
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.AsymmetricInertiaThrows" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.AsymmetricInertiaThrows" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.AsymmetricInertiaThrows" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-14/26 Testing: SRBDModelTest.QuaternionJacobianCorrectSize
-14/26 Test: SRBDModelTest.QuaternionJacobianCorrectSize
+14/55 Testing: SRBDModelTest.QuaternionJacobianCorrectSize
+14/55 Test: SRBDModelTest.QuaternionJacobianCorrectSize
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.QuaternionJacobianCorrectSize" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.QuaternionJacobianCorrectSize" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.QuaternionJacobianCorrectSize" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.QuaternionJacobianCorrectSize
@@ -360,15 +360,15 @@ Note: Google Test filter = SRBDModelTest.QuaternionJacobianCorrectSize
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.QuaternionJacobianCorrectSize" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.QuaternionJacobianCorrectSize" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.QuaternionJacobianCorrectSize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-15/26 Testing: SRBDModelTest.RK4FreeFallMatchesAnalytical
-15/26 Test: SRBDModelTest.RK4FreeFallMatchesAnalytical
+15/55 Testing: SRBDModelTest.RK4FreeFallMatchesAnalytical
+15/55 Test: SRBDModelTest.RK4FreeFallMatchesAnalytical
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.RK4FreeFallMatchesAnalytical" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.RK4FreeFallMatchesAnalytical" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.RK4FreeFallMatchesAnalytical" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.RK4FreeFallMatchesAnalytical
@@ -386,15 +386,15 @@ Note: Google Test filter = SRBDModelTest.RK4FreeFallMatchesAnalytical
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.RK4FreeFallMatchesAnalytical" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.RK4FreeFallMatchesAnalytical" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.RK4FreeFallMatchesAnalytical" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-16/26 Testing: SRBDModelTest.MatrixExponentialIdentity
-16/26 Test: SRBDModelTest.MatrixExponentialIdentity
+16/55 Testing: SRBDModelTest.MatrixExponentialIdentity
+16/55 Test: SRBDModelTest.MatrixExponentialIdentity
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.MatrixExponentialIdentity" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.MatrixExponentialIdentity" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.MatrixExponentialIdentity" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.MatrixExponentialIdentity
@@ -412,15 +412,15 @@ Note: Google Test filter = SRBDModelTest.MatrixExponentialIdentity
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.MatrixExponentialIdentity" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.MatrixExponentialIdentity" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.MatrixExponentialIdentity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-17/26 Testing: SRBDModelTest.MatrixExponentialScalingProperty
-17/26 Test: SRBDModelTest.MatrixExponentialScalingProperty
+17/55 Testing: SRBDModelTest.MatrixExponentialScalingProperty
+17/55 Test: SRBDModelTest.MatrixExponentialScalingProperty
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.MatrixExponentialScalingProperty" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.MatrixExponentialScalingProperty" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.MatrixExponentialScalingProperty" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.MatrixExponentialScalingProperty
@@ -438,15 +438,15 @@ Note: Google Test filter = SRBDModelTest.MatrixExponentialScalingProperty
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.MatrixExponentialScalingProperty" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.MatrixExponentialScalingProperty" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.MatrixExponentialScalingProperty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-18/26 Testing: SRBDModelTest.ForwardEulerUnstableForLargeDt
-18/26 Test: SRBDModelTest.ForwardEulerUnstableForLargeDt
+18/55 Testing: SRBDModelTest.ForwardEulerUnstableForLargeDt
+18/55 Test: SRBDModelTest.ForwardEulerUnstableForLargeDt
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.ForwardEulerUnstableForLargeDt" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.ForwardEulerUnstableForLargeDt" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.ForwardEulerUnstableForLargeDt" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.ForwardEulerUnstableForLargeDt
@@ -464,15 +464,15 @@ Note: Google Test filter = SRBDModelTest.ForwardEulerUnstableForLargeDt
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.ForwardEulerUnstableForLargeDt" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.ForwardEulerUnstableForLargeDt" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.ForwardEulerUnstableForLargeDt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-19/26 Testing: SRBDModelTest.MatrixExponentialAlwaysStable
-19/26 Test: SRBDModelTest.MatrixExponentialAlwaysStable
+19/55 Testing: SRBDModelTest.MatrixExponentialAlwaysStable
+19/55 Test: SRBDModelTest.MatrixExponentialAlwaysStable
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.MatrixExponentialAlwaysStable" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.MatrixExponentialAlwaysStable" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.MatrixExponentialAlwaysStable" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.MatrixExponentialAlwaysStable
@@ -490,15 +490,15 @@ Note: Google Test filter = SRBDModelTest.MatrixExponentialAlwaysStable
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.MatrixExponentialAlwaysStable" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.MatrixExponentialAlwaysStable" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.MatrixExponentialAlwaysStable" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-20/26 Testing: SRBDModelTest.TustinAlwaysStable
-20/26 Test: SRBDModelTest.TustinAlwaysStable
+20/55 Testing: SRBDModelTest.TustinAlwaysStable
+20/55 Test: SRBDModelTest.TustinAlwaysStable
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.TustinAlwaysStable" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.TustinAlwaysStable" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.TustinAlwaysStable" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.TustinAlwaysStable
@@ -516,15 +516,15 @@ Note: Google Test filter = SRBDModelTest.TustinAlwaysStable
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.TustinAlwaysStable" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.TustinAlwaysStable" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.TustinAlwaysStable" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-21/26 Testing: SRBDModelTest.SpectralRadiusComputation
-21/26 Test: SRBDModelTest.SpectralRadiusComputation
+21/55 Testing: SRBDModelTest.SpectralRadiusComputation
+21/55 Test: SRBDModelTest.SpectralRadiusComputation
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.SpectralRadiusComputation" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.SpectralRadiusComputation" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.SpectralRadiusComputation" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.SpectralRadiusComputation
@@ -542,15 +542,15 @@ Note: Google Test filter = SRBDModelTest.SpectralRadiusComputation
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.SpectralRadiusComputation" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.SpectralRadiusComputation" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.SpectralRadiusComputation" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-22/26 Testing: SRBDModelTest.CheckStability
-22/26 Test: SRBDModelTest.CheckStability
+22/55 Testing: SRBDModelTest.CheckStability
+22/55 Test: SRBDModelTest.CheckStability
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.CheckStability" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.CheckStability" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.CheckStability" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.CheckStability
@@ -568,15 +568,15 @@ Note: Google Test filter = SRBDModelTest.CheckStability
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.CheckStability" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.CheckStability" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.CheckStability" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-23/26 Testing: SRBDModelTest.DiscretizeMethodSwitch
-23/26 Test: SRBDModelTest.DiscretizeMethodSwitch
+23/55 Testing: SRBDModelTest.DiscretizeMethodSwitch
+23/55 Test: SRBDModelTest.DiscretizeMethodSwitch
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.DiscretizeMethodSwitch" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.DiscretizeMethodSwitch" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.DiscretizeMethodSwitch" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.DiscretizeMethodSwitch
@@ -594,15 +594,15 @@ Note: Google Test filter = SRBDModelTest.DiscretizeMethodSwitch
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.DiscretizeMethodSwitch" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.DiscretizeMethodSwitch" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.DiscretizeMethodSwitch" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-24/26 Testing: SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp
-24/26 Test: SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp
+24/55 Testing: SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp
+24/55 Test: SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp
@@ -620,15 +620,15 @@ Note: Google Test filter = SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixEx
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.LargeDtComparisonForwardEulerVsMatrixExp" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-25/26 Testing: SRBDModelTest.DiscretizationAccuracyConvergence
-25/26 Test: SRBDModelTest.DiscretizationAccuracyConvergence
+25/55 Testing: SRBDModelTest.DiscretizationAccuracyConvergence
+25/55 Test: SRBDModelTest.DiscretizationAccuracyConvergence
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.DiscretizationAccuracyConvergence" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.DiscretizationAccuracyConvergence" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.DiscretizationAccuracyConvergence" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.DiscretizationAccuracyConvergence
@@ -646,15 +646,15 @@ Note: Google Test filter = SRBDModelTest.DiscretizationAccuracyConvergence
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.DiscretizationAccuracyConvergence" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.DiscretizationAccuracyConvergence" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.DiscretizationAccuracyConvergence" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-26/26 Testing: SRBDModelTest.DefaultDiscretizationMethod
-26/26 Test: SRBDModelTest.DefaultDiscretizationMethod
+26/55 Testing: SRBDModelTest.DefaultDiscretizationMethod
+26/55 Test: SRBDModelTest.DefaultDiscretizationMethod
 Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/srbd_tests.exe" "--gtest_filter=SRBDModelTest.DefaultDiscretizationMethod" "--gtest_also_run_disabled_tests"
 Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
-"SRBDModelTest.DefaultDiscretizationMethod" start time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.DefaultDiscretizationMethod" start time: Jun 11 14:49 中国标准时间
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = SRBDModelTest.DefaultDiscretizationMethod
@@ -672,8 +672,791 @@ Note: Google Test filter = SRBDModelTest.DefaultDiscretizationMethod
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SRBDModelTest.DefaultDiscretizationMethod" end time: Jun 11 13:48 中国标准时间
+"SRBDModelTest.DefaultDiscretizationMethod" end time: Jun 11 14:49 中国标准时间
 "SRBDModelTest.DefaultDiscretizationMethod" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 11 13:48 中国标准时间
+27/55 Testing: BezierCurveTest.CubicEndpoints
+27/55 Test: BezierCurveTest.CubicEndpoints
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=BezierCurveTest.CubicEndpoints" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"BezierCurveTest.CubicEndpoints" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BezierCurveTest.CubicEndpoints
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BezierCurveTest
+[ RUN      ] BezierCurveTest.CubicEndpoints
+[       OK ] BezierCurveTest.CubicEndpoints (0 ms)
+[----------] 1 test from BezierCurveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BezierCurveTest.CubicEndpoints" end time: Jun 11 14:49 中国标准时间
+"BezierCurveTest.CubicEndpoints" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/55 Testing: BezierCurveTest.QuinticEndpoints
+28/55 Test: BezierCurveTest.QuinticEndpoints
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=BezierCurveTest.QuinticEndpoints" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"BezierCurveTest.QuinticEndpoints" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BezierCurveTest.QuinticEndpoints
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BezierCurveTest
+[ RUN      ] BezierCurveTest.QuinticEndpoints
+[       OK ] BezierCurveTest.QuinticEndpoints (0 ms)
+[----------] 1 test from BezierCurveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BezierCurveTest.QuinticEndpoints" end time: Jun 11 14:49 中国标准时间
+"BezierCurveTest.QuinticEndpoints" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/55 Testing: BezierCurveTest.LinearBezierIsLinear
+29/55 Test: BezierCurveTest.LinearBezierIsLinear
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=BezierCurveTest.LinearBezierIsLinear" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"BezierCurveTest.LinearBezierIsLinear" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BezierCurveTest.LinearBezierIsLinear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BezierCurveTest
+[ RUN      ] BezierCurveTest.LinearBezierIsLinear
+[       OK ] BezierCurveTest.LinearBezierIsLinear (0 ms)
+[----------] 1 test from BezierCurveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BezierCurveTest.LinearBezierIsLinear" end time: Jun 11 14:49 中国标准时间
+"BezierCurveTest.LinearBezierIsLinear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/55 Testing: BezierCurveTest.CubicMidpoint
+30/55 Test: BezierCurveTest.CubicMidpoint
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=BezierCurveTest.CubicMidpoint" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"BezierCurveTest.CubicMidpoint" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BezierCurveTest.CubicMidpoint
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BezierCurveTest
+[ RUN      ] BezierCurveTest.CubicMidpoint
+[       OK ] BezierCurveTest.CubicMidpoint (0 ms)
+[----------] 1 test from BezierCurveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BezierCurveTest.CubicMidpoint" end time: Jun 11 14:49 中国标准时间
+"BezierCurveTest.CubicMidpoint" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/55 Testing: BezierCurveTest.DerivativeAtEndpoints
+31/55 Test: BezierCurveTest.DerivativeAtEndpoints
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=BezierCurveTest.DerivativeAtEndpoints" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"BezierCurveTest.DerivativeAtEndpoints" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BezierCurveTest.DerivativeAtEndpoints
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BezierCurveTest
+[ RUN      ] BezierCurveTest.DerivativeAtEndpoints
+[       OK ] BezierCurveTest.DerivativeAtEndpoints (0 ms)
+[----------] 1 test from BezierCurveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BezierCurveTest.DerivativeAtEndpoints" end time: Jun 11 14:49 中国标准时间
+"BezierCurveTest.DerivativeAtEndpoints" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/55 Testing: BezierCurveTest.DerivativeAtStartMatchesControlPointDiff
+32/55 Test: BezierCurveTest.DerivativeAtStartMatchesControlPointDiff
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=BezierCurveTest.DerivativeAtStartMatchesControlPointDiff" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"BezierCurveTest.DerivativeAtStartMatchesControlPointDiff" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BezierCurveTest.DerivativeAtStartMatchesControlPointDiff
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BezierCurveTest
+[ RUN      ] BezierCurveTest.DerivativeAtStartMatchesControlPointDiff
+[       OK ] BezierCurveTest.DerivativeAtStartMatchesControlPointDiff (0 ms)
+[----------] 1 test from BezierCurveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BezierCurveTest.DerivativeAtStartMatchesControlPointDiff" end time: Jun 11 14:49 中国标准时间
+"BezierCurveTest.DerivativeAtStartMatchesControlPointDiff" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/55 Testing: BezierCurveTest.SecondDerivative
+33/55 Test: BezierCurveTest.SecondDerivative
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=BezierCurveTest.SecondDerivative" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"BezierCurveTest.SecondDerivative" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BezierCurveTest.SecondDerivative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BezierCurveTest
+[ RUN      ] BezierCurveTest.SecondDerivative
+[       OK ] BezierCurveTest.SecondDerivative (0 ms)
+[----------] 1 test from BezierCurveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BezierCurveTest.SecondDerivative" end time: Jun 11 14:49 中国标准时间
+"BezierCurveTest.SecondDerivative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/55 Testing: BezierCurveTest.ConvexHullProperty
+34/55 Test: BezierCurveTest.ConvexHullProperty
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=BezierCurveTest.ConvexHullProperty" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"BezierCurveTest.ConvexHullProperty" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BezierCurveTest.ConvexHullProperty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BezierCurveTest
+[ RUN      ] BezierCurveTest.ConvexHullProperty
+[       OK ] BezierCurveTest.ConvexHullProperty (0 ms)
+[----------] 1 test from BezierCurveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BezierCurveTest.ConvexHullProperty" end time: Jun 11 14:49 中国标准时间
+"BezierCurveTest.ConvexHullProperty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/55 Testing: BezierCurveTest.ArcLengthPositive
+35/55 Test: BezierCurveTest.ArcLengthPositive
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=BezierCurveTest.ArcLengthPositive" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"BezierCurveTest.ArcLengthPositive" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BezierCurveTest.ArcLengthPositive
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BezierCurveTest
+[ RUN      ] BezierCurveTest.ArcLengthPositive
+[       OK ] BezierCurveTest.ArcLengthPositive (0 ms)
+[----------] 1 test from BezierCurveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BezierCurveTest.ArcLengthPositive" end time: Jun 11 14:49 中国标准时间
+"BezierCurveTest.ArcLengthPositive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/55 Testing: BezierCurveTest.SampleCount
+36/55 Test: BezierCurveTest.SampleCount
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=BezierCurveTest.SampleCount" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"BezierCurveTest.SampleCount" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BezierCurveTest.SampleCount
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BezierCurveTest
+[ RUN      ] BezierCurveTest.SampleCount
+[       OK ] BezierCurveTest.SampleCount (0 ms)
+[----------] 1 test from BezierCurveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BezierCurveTest.SampleCount" end time: Jun 11 14:49 中国标准时间
+"BezierCurveTest.SampleCount" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/55 Testing: BezierCurveTest.MinMaxZ
+37/55 Test: BezierCurveTest.MinMaxZ
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=BezierCurveTest.MinMaxZ" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"BezierCurveTest.MinMaxZ" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BezierCurveTest.MinMaxZ
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BezierCurveTest
+[ RUN      ] BezierCurveTest.MinMaxZ
+[       OK ] BezierCurveTest.MinMaxZ (0 ms)
+[----------] 1 test from BezierCurveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BezierCurveTest.MinMaxZ" end time: Jun 11 14:49 中国标准时间
+"BezierCurveTest.MinMaxZ" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/55 Testing: BezierCurveTest.GroundPenetration
+38/55 Test: BezierCurveTest.GroundPenetration
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=BezierCurveTest.GroundPenetration" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"BezierCurveTest.GroundPenetration" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BezierCurveTest.GroundPenetration
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BezierCurveTest
+[ RUN      ] BezierCurveTest.GroundPenetration
+[       OK ] BezierCurveTest.GroundPenetration (0 ms)
+[----------] 1 test from BezierCurveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BezierCurveTest.GroundPenetration" end time: Jun 11 14:49 中国标准时间
+"BezierCurveTest.GroundPenetration" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/55 Testing: BezierCurveTest.ElevateDegree
+39/55 Test: BezierCurveTest.ElevateDegree
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=BezierCurveTest.ElevateDegree" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"BezierCurveTest.ElevateDegree" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BezierCurveTest.ElevateDegree
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BezierCurveTest
+[ RUN      ] BezierCurveTest.ElevateDegree
+[       OK ] BezierCurveTest.ElevateDegree (0 ms)
+[----------] 1 test from BezierCurveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BezierCurveTest.ElevateDegree" end time: Jun 11 14:49 中国标准时间
+"BezierCurveTest.ElevateDegree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/55 Testing: BezierCurveTest.SetControlPoint
+40/55 Test: BezierCurveTest.SetControlPoint
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=BezierCurveTest.SetControlPoint" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"BezierCurveTest.SetControlPoint" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BezierCurveTest.SetControlPoint
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BezierCurveTest
+[ RUN      ] BezierCurveTest.SetControlPoint
+[       OK ] BezierCurveTest.SetControlPoint (0 ms)
+[----------] 1 test from BezierCurveTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BezierCurveTest.SetControlPoint" end time: Jun 11 14:49 中国标准时间
+"BezierCurveTest.SetControlPoint" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/55 Testing: SwingTrajectoryTest.BasicCubicSwing
+41/55 Test: SwingTrajectoryTest.BasicCubicSwing
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.BasicCubicSwing" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.BasicCubicSwing" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.BasicCubicSwing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.BasicCubicSwing
+[       OK ] SwingTrajectoryTest.BasicCubicSwing (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.BasicCubicSwing" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.BasicCubicSwing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/55 Testing: SwingTrajectoryTest.BasicQuinticSwing
+42/55 Test: SwingTrajectoryTest.BasicQuinticSwing
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.BasicQuinticSwing" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.BasicQuinticSwing" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.BasicQuinticSwing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.BasicQuinticSwing
+[       OK ] SwingTrajectoryTest.BasicQuinticSwing (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.BasicQuinticSwing" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.BasicQuinticSwing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/55 Testing: SwingTrajectoryTest.SwingHeightRespected
+43/55 Test: SwingTrajectoryTest.SwingHeightRespected
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.SwingHeightRespected" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.SwingHeightRespected" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.SwingHeightRespected
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.SwingHeightRespected
+[       OK ] SwingTrajectoryTest.SwingHeightRespected (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.SwingHeightRespected" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.SwingHeightRespected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/55 Testing: SwingTrajectoryTest.BodyToWorldTransform
+44/55 Test: SwingTrajectoryTest.BodyToWorldTransform
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.BodyToWorldTransform" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.BodyToWorldTransform" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.BodyToWorldTransform
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.BodyToWorldTransform
+[       OK ] SwingTrajectoryTest.BodyToWorldTransform (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.BodyToWorldTransform" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.BodyToWorldTransform" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/55 Testing: SwingTrajectoryTest.BodyToWorldWithTilt
+45/55 Test: SwingTrajectoryTest.BodyToWorldWithTilt
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.BodyToWorldWithTilt" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.BodyToWorldWithTilt" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.BodyToWorldWithTilt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.BodyToWorldWithTilt
+[       OK ] SwingTrajectoryTest.BodyToWorldWithTilt (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.BodyToWorldWithTilt" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.BodyToWorldWithTilt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/55 Testing: SwingTrajectoryTest.GroundPenetrationDetection
+46/55 Test: SwingTrajectoryTest.GroundPenetrationDetection
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.GroundPenetrationDetection" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.GroundPenetrationDetection" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.GroundPenetrationDetection
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.GroundPenetrationDetection
+[       OK ] SwingTrajectoryTest.GroundPenetrationDetection (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.GroundPenetrationDetection" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.GroundPenetrationDetection" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/55 Testing: SwingTrajectoryTest.GroundPenaltyCorrection
+47/55 Test: SwingTrajectoryTest.GroundPenaltyCorrection
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.GroundPenaltyCorrection" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.GroundPenaltyCorrection" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.GroundPenaltyCorrection
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.GroundPenaltyCorrection
+[       OK ] SwingTrajectoryTest.GroundPenaltyCorrection (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.GroundPenaltyCorrection" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.GroundPenaltyCorrection" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/55 Testing: SwingTrajectoryTest.GenerateWithState
+48/55 Test: SwingTrajectoryTest.GenerateWithState
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.GenerateWithState" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.GenerateWithState" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.GenerateWithState
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.GenerateWithState
+[       OK ] SwingTrajectoryTest.GenerateWithState (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.GenerateWithState" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.GenerateWithState" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/55 Testing: SwingTrajectoryTest.LegPhaseManagement
+49/55 Test: SwingTrajectoryTest.LegPhaseManagement
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.LegPhaseManagement" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.LegPhaseManagement" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.LegPhaseManagement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.LegPhaseManagement
+[       OK ] SwingTrajectoryTest.LegPhaseManagement (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.LegPhaseManagement" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.LegPhaseManagement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/55 Testing: SwingTrajectoryTest.SwingPhaseProgress
+50/55 Test: SwingTrajectoryTest.SwingPhaseProgress
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.SwingPhaseProgress" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.SwingPhaseProgress" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.SwingPhaseProgress
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.SwingPhaseProgress
+[       OK ] SwingTrajectoryTest.SwingPhaseProgress (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.SwingPhaseProgress" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.SwingPhaseProgress" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/55 Testing: SwingTrajectoryTest.UprightBodyNoPenetration
+51/55 Test: SwingTrajectoryTest.UprightBodyNoPenetration
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.UprightBodyNoPenetration" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.UprightBodyNoPenetration" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.UprightBodyNoPenetration
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.UprightBodyNoPenetration
+[       OK ] SwingTrajectoryTest.UprightBodyNoPenetration (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.UprightBodyNoPenetration" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.UprightBodyNoPenetration" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/55 Testing: SwingTrajectoryTest.ZeroStepNoSelfIntersection
+52/55 Test: SwingTrajectoryTest.ZeroStepNoSelfIntersection
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.ZeroStepNoSelfIntersection" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.ZeroStepNoSelfIntersection" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.ZeroStepNoSelfIntersection
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.ZeroStepNoSelfIntersection
+[       OK ] SwingTrajectoryTest.ZeroStepNoSelfIntersection (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.ZeroStepNoSelfIntersection" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.ZeroStepNoSelfIntersection" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/55 Testing: SwingTrajectoryTest.LargeTiltPenaltyCorrection
+53/55 Test: SwingTrajectoryTest.LargeTiltPenaltyCorrection
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.LargeTiltPenaltyCorrection" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.LargeTiltPenaltyCorrection" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.LargeTiltPenaltyCorrection
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.LargeTiltPenaltyCorrection
+[       OK ] SwingTrajectoryTest.LargeTiltPenaltyCorrection (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.LargeTiltPenaltyCorrection" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.LargeTiltPenaltyCorrection" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/55 Testing: SwingTrajectoryTest.BezierOrderSwitch
+54/55 Test: SwingTrajectoryTest.BezierOrderSwitch
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.BezierOrderSwitch" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.BezierOrderSwitch" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.BezierOrderSwitch
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.BezierOrderSwitch
+[       OK ] SwingTrajectoryTest.BezierOrderSwitch (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.BezierOrderSwitch" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.BezierOrderSwitch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/55 Testing: SwingTrajectoryTest.TransformBezierToWorldPreservesShape
+55/55 Test: SwingTrajectoryTest.TransformBezierToWorldPreservesShape
+Command: "D:/SOLO-10/87-quadruped-mpc-core/build/tests/Release/swing_tests.exe" "--gtest_filter=SwingTrajectoryTest.TransformBezierToWorldPreservesShape" "--gtest_also_run_disabled_tests"
+Directory: D:/SOLO-10/87-quadruped-mpc-core/build/tests
+"SwingTrajectoryTest.TransformBezierToWorldPreservesShape" start time: Jun 11 14:49 中国标准时间
+Output:
+----------------------------------------------------------
+Running main() from D:\SOLO-10\87-quadruped-mpc-core\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SwingTrajectoryTest.TransformBezierToWorldPreservesShape
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SwingTrajectoryTest
+[ RUN      ] SwingTrajectoryTest.TransformBezierToWorldPreservesShape
+[       OK ] SwingTrajectoryTest.TransformBezierToWorldPreservesShape (0 ms)
+[----------] 1 test from SwingTrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SwingTrajectoryTest.TransformBezierToWorldPreservesShape" end time: Jun 11 14:49 中国标准时间
+"SwingTrajectoryTest.TransformBezierToWorldPreservesShape" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 11 14:49 中国标准时间

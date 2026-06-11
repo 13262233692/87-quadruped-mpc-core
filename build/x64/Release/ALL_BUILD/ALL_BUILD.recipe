@@ -11,6 +11,9 @@
       <FullPath>D:\SOLO-10\87-quadruped-mpc-core\build\tests\Release\srbd_tests.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>D:\SOLO-10\87-quadruped-mpc-core\build\tests\Release\swing_tests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>D:\SOLO-10\87-quadruped-mpc-core\build\x64\Release\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>

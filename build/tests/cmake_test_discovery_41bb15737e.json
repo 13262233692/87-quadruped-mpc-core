@@ -1,0 +1,163 @@
+{
+  "tests": 29,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "BezierCurveTest",
+      "tests": 14,
+      "testsuite": [
+        {
+          "name": "CubicEndpoints",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 18
+        },
+        {
+          "name": "QuinticEndpoints",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 34
+        },
+        {
+          "name": "LinearBezierIsLinear",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 50
+        },
+        {
+          "name": "CubicMidpoint",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 64
+        },
+        {
+          "name": "DerivativeAtEndpoints",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 75
+        },
+        {
+          "name": "DerivativeAtStartMatchesControlPointDiff",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 90
+        },
+        {
+          "name": "SecondDerivative",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 105
+        },
+        {
+          "name": "ConvexHullProperty",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 116
+        },
+        {
+          "name": "ArcLengthPositive",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 131
+        },
+        {
+          "name": "SampleCount",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 145
+        },
+        {
+          "name": "MinMaxZ",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 156
+        },
+        {
+          "name": "GroundPenetration",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 167
+        },
+        {
+          "name": "ElevateDegree",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 185
+        },
+        {
+          "name": "SetControlPoint",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 205
+        }
+      ]
+    },
+    {
+      "name": "SwingTrajectoryTest",
+      "tests": 15,
+      "testsuite": [
+        {
+          "name": "BasicCubicSwing",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 227
+        },
+        {
+          "name": "BasicQuinticSwing",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 243
+        },
+        {
+          "name": "SwingHeightRespected",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 260
+        },
+        {
+          "name": "BodyToWorldTransform",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 282
+        },
+        {
+          "name": "BodyToWorldWithTilt",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 294
+        },
+        {
+          "name": "GroundPenetrationDetection",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 307
+        },
+        {
+          "name": "GroundPenaltyCorrection",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 330
+        },
+        {
+          "name": "GenerateWithState",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 353
+        },
+        {
+          "name": "LegPhaseManagement",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 374
+        },
+        {
+          "name": "SwingPhaseProgress",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 386
+        },
+        {
+          "name": "UprightBodyNoPenetration",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 393
+        },
+        {
+          "name": "ZeroStepNoSelfIntersection",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 415
+        },
+        {
+          "name": "LargeTiltPenaltyCorrection",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 436
+        },
+        {
+          "name": "BezierOrderSwitch",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 456
+        },
+        {
+          "name": "TransformBezierToWorldPreservesShape",
+          "file": "D:\\SOLO-10\\87-quadruped-mpc-core\\tests\\test_swing_trajectory.cpp",
+          "line": 472
+        }
+      ]
+    }
+  ]
+}

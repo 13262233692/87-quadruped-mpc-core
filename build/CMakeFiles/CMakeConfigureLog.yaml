@@ -16245,3 +16245,1185 @@ events:
         
       exitCode: 1
 ...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:41 (find_package)"
+    name: "pybind11"
+    configs:
+      -
+        filename: "pybind11.cps"
+        kind: "cps"
+      -
+        filename: "pybind11Config.cmake"
+        kind: "cmake"
+      -
+        filename: "pybind11-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "pybind11"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/SOLO-10/87-quadruped-mpc-core/build/CMakeFiles/pkgRedirects/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/SOLO-10/87-quadruped-mpc-core/build/CMakeFiles/pkgRedirects/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/SOLO-10/87-quadruped-mpc-core/build/CMakeFiles/pkgRedirects/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/SOLO-10/87-quadruped-mpc-core/build/CMakeFiles/pkgRedirects/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/nvm/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/nvm/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/nvm/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/nvm/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/nvm4w/nodejs/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/nvm4w/nodejs/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/nvm4w/nodejs/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/nvm4w/nodejs/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/GitHub CLI/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/GitHub CLI/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/GitHub CLI/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/GitHub CLI/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.0/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.0/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.0/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.0/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.cargo/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.cargo/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.cargo/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.cargo/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/Scripts/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/Scripts/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/Scripts/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/Scripts/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Launcher/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Launcher/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Launcher/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Launcher/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Microsoft/WindowsApps/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Microsoft/WindowsApps/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Microsoft/WindowsApps/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Microsoft/WindowsApps/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/go/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/go/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/go/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/go/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Microsoft VS Code/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Microsoft VS Code/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Microsoft VS Code/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Microsoft VS Code/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Roaming/npm/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Roaming/npm/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Roaming/npm/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Roaming/npm/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.local/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.local/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.local/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.local/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.trae-cn/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.trae-cn/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.trae-cn/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.trae-cn/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Trae CN/resources/app/node_modules/@vscode/ripgrep/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Trae CN/resources/app/node_modules/@vscode/ripgrep/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Trae CN/resources/app/node_modules/@vscode/ripgrep/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Trae CN/resources/app/node_modules/@vscode/ripgrep/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "c:\\\\Users\\\\ZhuanZ\\\\.trae-cn\\\\tools\\\\trae-gopls\\\\current"
+        - "c:\\\\Users\\\\ZhuanZ\\\\.trae-cn\\\\sdks\\\\workspaces\\\\a32186c3\\\\versions\\\\node\\\\current"
+        - "c:\\\\Users\\\\ZhuanZ\\\\.trae-cn\\\\sdks\\\\versions\\\\node\\\\current"
+        - "c:\\Users\\ZhuanZ\\.trae-cn\\tools\\trae-gopls\\current"
+        - "c:\\Users\\ZhuanZ\\.trae-cn\\sdks\\workspaces\\a32186c3\\versions\\node\\current"
+        - "c:\\Users\\ZhuanZ\\.trae-cn\\sdks\\versions\\node\\current"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\ZhuanZ\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2026.2.0\\"
+        - "C:\\Users\\ZhuanZ\\.cargo\\bin"
+        - "C:\\Users\\ZhuanZ\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\ZhuanZ\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\ZhuanZ\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ZhuanZ\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ZhuanZ\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\ZhuanZ\\go\\bin"
+        - "C:\\Users\\ZhuanZ\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ZhuanZ\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ZhuanZ\\.local\\bin\\"
+        - "c:\\Users\\ZhuanZ\\.trae-cn\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\ZhuanZ\\AppData\\Local\\Programs\\Trae CN\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/quadruped_srbd"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/quadruped_srbd"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:41 (find_package)"
+    name: "pybind11"
+    configs:
+      -
+        filename: "pybind11.cps"
+        kind: "cps"
+      -
+        filename: "pybind11Config.cmake"
+        kind: "cmake"
+      -
+        filename: "pybind11-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "pybind11"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "D:/SOLO-10/87-quadruped-mpc-core/build/CMakeFiles/pkgRedirects/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/SOLO-10/87-quadruped-mpc-core/build/CMakeFiles/pkgRedirects/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "D:/SOLO-10/87-quadruped-mpc-core/build/CMakeFiles/pkgRedirects/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "D:/SOLO-10/87-quadruped-mpc-core/build/CMakeFiles/pkgRedirects/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/bin/x64/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.3/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft MPI/Bin/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/nvm/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/nvm/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/nvm/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/nvm/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/nvm4w/nodejs/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/nvm4w/nodejs/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/nvm4w/nodejs/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/nvm4w/nodejs/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Go/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/GitHub CLI/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/GitHub CLI/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/GitHub CLI/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/GitHub CLI/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.0/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.0/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.0/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/Nsight Compute 2026.2.0/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.cargo/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.cargo/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.cargo/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.cargo/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/Scripts/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/Scripts/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/Scripts/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/Scripts/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Python312/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Launcher/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Launcher/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Launcher/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Python/Launcher/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Microsoft/WindowsApps/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Microsoft/WindowsApps/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Microsoft/WindowsApps/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Microsoft/WindowsApps/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/go/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/go/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/go/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/go/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Microsoft VS Code/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Microsoft VS Code/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Microsoft VS Code/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Microsoft VS Code/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Roaming/npm/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Roaming/npm/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Roaming/npm/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Roaming/npm/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.local/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.local/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.local/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.local/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.trae-cn/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.trae-cn/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.trae-cn/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/.trae-cn/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Trae CN/resources/app/node_modules/@vscode/ripgrep/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Trae CN/resources/app/node_modules/@vscode/ripgrep/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Trae CN/resources/app/node_modules/@vscode/ripgrep/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/ZhuanZ/AppData/Local/Programs/Trae CN/resources/app/node_modules/@vscode/ripgrep/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "c:\\\\Users\\\\ZhuanZ\\\\.trae-cn\\\\tools\\\\trae-gopls\\\\current"
+        - "c:\\\\Users\\\\ZhuanZ\\\\.trae-cn\\\\sdks\\\\workspaces\\\\a32186c3\\\\versions\\\\node\\\\current"
+        - "c:\\\\Users\\\\ZhuanZ\\\\.trae-cn\\\\sdks\\\\versions\\\\node\\\\current"
+        - "c:\\Users\\ZhuanZ\\.trae-cn\\tools\\trae-gopls\\current"
+        - "c:\\Users\\ZhuanZ\\.trae-cn\\sdks\\workspaces\\a32186c3\\versions\\node\\current"
+        - "c:\\Users\\ZhuanZ\\.trae-cn\\sdks\\versions\\node\\current"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\bin"
+        - "C:\\Program Files\\Microsoft MPI\\Bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\ZhuanZ\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2026.2.0\\"
+        - "C:\\Users\\ZhuanZ\\.cargo\\bin"
+        - "C:\\Users\\ZhuanZ\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\ZhuanZ\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\ZhuanZ\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\ZhuanZ\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ZhuanZ\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\ZhuanZ\\go\\bin"
+        - "C:\\Users\\ZhuanZ\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ZhuanZ\\AppData\\Roaming\\npm"
+        - "C:\\Users\\ZhuanZ\\.local\\bin\\"
+        - "c:\\Users\\ZhuanZ\\.trae-cn\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\ZhuanZ\\AppData\\Local\\Programs\\Trae CN\\resources\\app\\node_modules\\@vscode\\ripgrep\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/quadruped_srbd"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/quadruped_srbd"
+...

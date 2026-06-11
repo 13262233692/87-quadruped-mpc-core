@@ -8,6 +8,7 @@ D:/SOLO-10/87-quadruped-mpc-core/build/_deps/pybind11-build/CMakeFiles/RUN_TESTS
 D:/SOLO-10/87-quadruped-mpc-core/build/_deps/pybind11-build/CMakeFiles/INSTALL.dir
 D:/SOLO-10/87-quadruped-mpc-core/build/_deps/pybind11-build/CMakeFiles/ALL_BUILD.dir
 D:/SOLO-10/87-quadruped-mpc-core/build/tests/CMakeFiles/srbd_tests.dir
+D:/SOLO-10/87-quadruped-mpc-core/build/tests/CMakeFiles/swing_tests.dir
 D:/SOLO-10/87-quadruped-mpc-core/build/tests/CMakeFiles/RUN_TESTS.dir
 D:/SOLO-10/87-quadruped-mpc-core/build/tests/CMakeFiles/INSTALL.dir
 D:/SOLO-10/87-quadruped-mpc-core/build/_deps/googletest-build/CMakeFiles/RUN_TESTS.dir

@@ -30,6 +30,8 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 
 add_library(srbd_core STATIC
     src/srbd_model.cpp
+    src/bezier_curve.cpp
+    src/swing_trajectory.cpp
 )
 
 target_link_libraries(srbd_core PUBLIC Eigen3::Eigen)
